@@ -29,7 +29,7 @@ def predict_category(x):
 
 # Streamlit app
 def main():
-    st.title("Your Streamlit App Title")
+    st.title("Job profession prediction")
 
     # File Upload
     uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
